@@ -22,7 +22,7 @@ Script checks coefficients for correctness and suggests to enter them again if t
   3. The script will calculate the roots of the equation (if they exist) and output the result to the console.
 - In un-interactive mode:
   1. Create a file input.txt in the same directory as the script.
-  2. Write the coefficients a, b and c separated by a space in the file and save it.
+  2. Write the coefficients a, b and c separated by a space in the file and save it (file template: ``` a b c ```).
   3. Run the script in the terminal: `./quadratic_solver.sh -f`
   4. The script will calculate the roots of the equation (if they exist) and output the result to the console.
 
@@ -40,6 +40,10 @@ input.txt: `3 6 2`
 $ ./quadratic_solver.sh -f
 Two roots: x1 = -.42, x2 = -1.57
 ```
+
+## Reverts
+Revert error commit where the Vieta`s formula method calculation was used .
+
 ## Error handling
 - If a = 0, the script will return an error, since the equation will no longer be quadratic.
 - If the discriminant is negative, the script will report that there are no real roots.
