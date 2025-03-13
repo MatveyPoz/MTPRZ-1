@@ -6,7 +6,7 @@ in the set of real numbers (from 0 to 2 solutions).
 
 ## TODO
 - Add handling a=0
-- Add handling non-numeric coefficients
+- Add file mode
 
 ## Requirements
 - Installed Bash interpreter
@@ -18,16 +18,10 @@ in the set of real numbers (from 0 to 2 solutions).
 `chmod +x quadratic_solver.sh`
 
 ## Run
-- In interactive mode:
-  1. Run the script in the terminal:
+1. Run the script in the terminal:
 `./quadratic_solver.sh`
-  2. Enter the coefficients a, b and c separated by a space and press Enter.
-  3. The script will calculate the roots of the equation (if they exist) and output the result to the console.
-- In non-interactive (file) mode:
-  1. Create file `input.txt` with the coefficients a, b and c separated by a space.
-  2. Run the script in the terminal with parameter `-f`.
-  3. The script will calculate the roots of the equation (if they exist) and output the result to the console.
-
+2. Enter the coefficients a, b and c separated by a space and press Enter.
+3. The script will calculate the roots of the equation (if they exist) and output the result to the console.
 
 ## Example of work
 ``` bash
